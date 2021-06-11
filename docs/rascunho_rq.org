@@ -1,0 +1,55 @@
+* Análise de requisitos
+** Cenários
+|---------------------+--------------------------------------------------|
+| *Nome*              | Utilização dos laboratórios CGI.                 |
+|---------------------+--------------------------------------------------|
+| *Atores*            | Secretaria;                                      |
+|                     | CGI;                                             |
+|                     | Alunos.                                          |
+|---------------------+--------------------------------------------------|
+| *Pré-condição*      | Checar requisitos funcionais ([[#requisitos-funcionais][1]]) e não           |
+|                     | funcionais ([[#requisitos-não-funcionais][2]]).                                  |
+|---------------------+--------------------------------------------------|
+| *Fluxo normal*      | Após a busca do usuário, o sistema retornará o   |
+|                     | laboratório mais apto aos requisitos inseridos,  |
+|                     | considerando também a distribuição dos alunos    |
+|                     | por entre os laboratórios.                       |
+|---------------------+--------------------------------------------------|
+| *Fluxo alternativo* | Mudanças físicas nas instalações da FEI;         |
+|                     | Superlotação dos laboratórios.                   |
+|---------------------+--------------------------------------------------|
+| *Pós-condição*      | O software seria aplicado em terminais de        |
+|                     | acesso na circunvizinhaça dos laboratórios, com  |
+|                     | ampla utilização. Ao ocorrer mudanças físicas    |
+|                     | nas instalações o software se adaptará apenas    |
+|                     | com o detecção das máquinas concebidas pelo CGI. |
+|---------------------+--------------------------------------------------|
+
+** Requisitos Funcionais
+*** Busca
+    A procura realizada por um usuário, seja este usuário administrador do setor
+    *CGI* ou aluno, com o objetivo de conhecer a disponibilidade de um computador
+    em um dos laboratórios disponíveis. 
+
+*** Categorização
+    Integrado ao sistema de filtros, a categorização auxiliaria na distribuição
+    das máquinas por entre os alunos interessados em acessar estas.
+
+*** Filtros
+    Juntamente ao sistema de busca, os filtros garantiriam a separação dos computadores
+    em relação a termos únicos escolhidos pelos alunos. Esta separação poderia 
+    ser realizada por fatores como /softwares/ disponíveis nas máquinas, 
+    lugares físicos no próprio laboratório, localização em relação ao andar no prédio.
+** Requisitos não funcionais
+*** Integração ao sistema de rede interna através das camadas de transporte e aplicação
+    - SNMP
+    - Biblioteca de /sockets/ nativa do CPP
+
+*** QT para desenvolvimento da interface    
+    Ferramenta com melhor integração com o CPP no mercado, com licença livre.
+** Escala Likert
+A criação da escala Likert foi feita através de um questionário hospedado na
+plataforma Google /Forms/ ([[https://docs.google.com/forms/d/e/1FAIpQLScapXQgEmBAhR38dpN7fkfFj_eIeJKFhAi-T7bEsnQk8eBwrw/viewform][link para o questionário]]) e a escala Likert foi
+implementada com os dados computados até a data *17/09/20*.
+
+[[file:../imgs/likert.png]]

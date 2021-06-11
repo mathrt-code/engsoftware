@@ -1,0 +1,67 @@
+#+TITLE: Projeto de Engenharia de Software
+
+
+* Equipe
+  - Matheus Rodrigues Teixeira RA: 22219031-6
+    
+* Proposta 
+  Desenvolvimento de uma aplicação para a matéria de engenharia de /software/, 
+  baseando-se nos modelos propostos em aula para a organização, exposição e 
+  modificação de ideias, bem como a distribuição das tarefas por 
+  entre os membros do grupo. 
+ 
+  Contanto, devido ao simples fato do grupo ser um integrante, tanto a capacidade
+  produtiva quanto a disponibilidade na questão de horas de trabalho estariam 
+  limitadas. Como forma de contornar as dificuldades que surgiriam ao se propor
+  um projeto de grande escalas, o grupo pretende se restringir ao espaço da 
+  universidade.
+
+** Os modelos 
+   Não existem motivos para a 
+   utilização de um modelo para projetos de grande escala como *SCRUM*, 
+   uma vez que a quantidade de pessoal necessária para tal excede a quantia 
+   de membros do grupo. Ergo, modelos convencionais como cascata e incremental
+   seriam mais apropriados. Dentre os ágeis, o XP (/eXtreme Programming/) também 
+   apresenta-se viável. Os modelos os quais apresentam uma distribuição de papéis
+   mais "dinâmica" têm prioridade devido à preferência dos membros da equipe. 
+
+** A aplicação em si 
+   Os laboratórios para livre uso localizados no bloco K do centro universitário 
+   FEI são um dos poucos lugares para utilização dos /softwares/ proprietários 
+   requisitados por grande parte das matérias, bem como servirem de ótimos locais
+   para estudo. Portanto, durante a época de provas ocorre a superlotação da maioria
+   ou de todos estes laboratórios. A criação de um sistema o qual possa informar
+   os alunos se existem vagas disponíveis e/ou todos os laboratórios estão sendo
+   utilizados poupariam estes de realizar viagens desnecessárias, economizando 
+   tempo no processo. A aplicação de tal proposta seria realizada através de terminais, 
+   proporcionando funções de busca e filtros por softwares.
+
+*** O sistema   
+    Unindo duas (possivelmente três) das matérias do semestre, o sistema se basearia
+    na interação básica cliente-servidor, tendo cada um dos computadores dos laboratórios 
+    enviando após sua inicialização as informações referentes a quantos alunos estão o 
+    utilizando e se há um tempo previsto para o término de seu uso.
+    
+    O servidor, no caso, receberia tal informação e processaria da maneira a qual for
+    determinada apropriada. A interface também informaria quais programas estão 
+    disponíveis no laboratório em questão.
+   
+** Organização
+   Sendo um dos pacotes/modos mais populares do editor GNU/Emacs, o *org-mode* é 
+   perfeito para a definição de listas *TODO*, bem como /checklists/ e tabelas 
+   de uma forma geral. Pelo grupo já se apresentar acostumado com este sistema, 
+   todos os documentos relacionados à organização serão estruturados como 
+   documentos *org*. 
+
+* Material
+Seção destinada a agrupar as informações relacionadas às etapas do projeto.
+|---------+--------------------------------------------------------------------|
+| Entrega | Material                                                           |
+|---------+--------------------------------------------------------------------|
+| 1ª      | [[https://github.com/mathrt-code/engsoft/blob/master/docs/entrega/descricao_geral.org][Descrição Geral]]                                                    |
+| 2ª      | [[https://github.com/mathrt-code/engsoft/blob/master/docs/entrega/levantamento_requisitos.org][Levantamento de Requisitos]], [[https://github.com/mathrt-code/engsoft/blob/master/docs/analise_riscos.org][Matrizes SWOT]] |
+| 3ª      | [[https://github.com/mathrt-code/engsoft/blob/master/docs/crcCards.pdf][CRC Cards]]                                                          |
+| 4º      | [[https://github.com/mathrt-code/engsoft/blob/master/docs/umls.pdf][UMLs]], [[https://github.com/mathrt-code/engsoft/blob/master/docs/entrega/especificacao_teste.org][Especificação de testes]]                                      |
+| 5º      | [[https://github.com/mathrt-code/engsoft/blob/master/docs/entrega/evolucao.org][Qualidade e evolução]]                                               |
+|---------+--------------------------------------------------------------------|
+
